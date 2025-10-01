@@ -1,6 +1,6 @@
 # Personal Training Diary
 
-A mobile-friendly fullstack web application to track workouts, set goals, view statistics, and export training data.
+A mobile friendly fullstack web application to track workouts, set goals, view statistics, and export training data.
 
 This project uses a **React + TypeScript frontend** (Vite) and connects to a **.NET Minimal API backend** with a SQLite database. User authentication is handled via JWT and certain routes are protected based on login status.
 
@@ -36,3 +36,10 @@ This project uses a **React + TypeScript frontend** (Vite) and connects to a **.
 - **Version Control:** Git with frequent commits
 
 ---
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone
+cd personal-training-app
