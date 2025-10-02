@@ -43,3 +43,5 @@ This project uses a **React + TypeScript frontend** (Vite) and connects to a **.
 ```bash
 git clone
 cd personal-training-app
+
+http://localhost:5173/
