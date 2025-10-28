@@ -18,13 +18,13 @@ The backend is provided as a ready-made Minimal API, and the frontend is impleme
 The project consists of two separate parts: **backend** and **frontend**.  
 These must be installed and started separately.
 
-Step 1: Clone the Repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/MSU98/personal-training-app.git
 cd personal-training-app
 
-### Step 2: Install Dependencies
+### Install Dependencies
 Backend (.NET)
 
 Open a terminal inside the backend folder:
