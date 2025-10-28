@@ -1,47 +1,69 @@
-# Personal Training Diary
+# Personal Training App
 
-A mobile friendly fullstack web application to track workouts, set goals, view statistics, and export training data.
-
-This project uses a **React + TypeScript frontend** (Vite) and connects to a **.NET Minimal API backend** with a SQLite database. User authentication is handled via JWT and certain routes are protected based on login status.
-
----
-
-## Features
-
-- **User Authentication**
-  - Login and logout
-  - Protected routes for logged-in users
-- **Workout Management**
-  - Create, read, update, delete workouts
-  - Add notes, date, and exercises
-- **Goals**
-  - Set, view, update, and remove training goals
-- **Statistics**
-  - Track weekly workout counts
-  - View progress over time
-- **Export**
-  - Export workouts as JSON or CSV
-- **Responsive Design**
-  - Works on mobile, tablet, and desktop
-- **Custom React Hook**
-  - `useFetch` for fetching data from the API
+This project is a fullstack web application built with **React (Vite + TypeScript)** for the frontend and **.NET Minimal API** for the backend.  
+The purpose of the app is to allow users to log workouts, set goals, and track their progress over time.
 
 ---
 
-## Tech Stack
+## Project structure
 
-- **Frontend:** React 18, TypeScript, Vite, React Router, React Bootstrap
-- **Backend:** .NET Minimal API (provided)
-- **Database:** SQLite (at least 3 tables)
-- **Version Control:** Git with frequent commits
+The repository contains both frontend and backend parts.  
+The backend is provided as a ready-made Minimal API solution, and the frontend is implemented in React with TypeScript.
+
 
 ---
-## Installation
 
-1. Clone the repository:
+## How to run the application
 
+There are two parts of the project that need to be started separately: the backend API and the React frontend.
+
+### Step 1: Clone the repository
 ```bash
-git clone
+git clone https://github.com/MSU98/personal-training-app.git
 cd personal-training-app
+User authentication
 
-http://localhost:5173/
+User login and access control are handled by the backend.
+Different REST routes and permissions depend on the user role stored in the database.
+
+Technologies used
+
+Frontend:
+
+React (Vite)
+
+TypeScript
+
+React Router
+
+React Bootstrap
+
+Axios
+
+Backend:
+
+.NET Minimal API
+
+SQLite database
+
+Features
+
+Log and view workouts
+
+Track progress and goals
+
+Export workout data as JSON
+
+Responsive design for mobile, tablet, and desktop
+
+Protected routes (requires login)
+
+Notes for the examiner
+
+The project contains two separate parts (frontend and backend).
+
+The backend and frontend must be started separately as described above.
+
+The backend has not been modified from the provided solution.
+
+The frontend is located inside the my-fit-app folder and communicates with the backend through REST API requests.
