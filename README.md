@@ -18,48 +18,38 @@ The backend is provided as a ready-made Minimal API, and the frontend is impleme
 The project consists of two separate parts: **backend** and **frontend**.  
 These must be installed and started separately.
 
-### Clone the Repository
+Clone the Repository
 
 ```bash
 git clone https://github.com/MSU98/personal-training-app.git
 cd personal-training-app
 
-### Install Dependencies
+Install Dependencies
 Backend (.NET)
 
 Open a terminal inside the backend folder:
-
 cd backend
 dotnet restore
 
-
 Start the backend server:
-
 dotnet run
 
 
 By default, the backend runs on:
-
 https://localhost:5001
 http://localhost:5000
 
 Frontend (React + TypeScript)
-
 Open another terminal window and navigate to the my-fit-app folder:
-
 cd my-fit-app
 npm install
 
-
 Start the frontend development server:
-
 npm run dev
 
 
 By default, the frontend runs on:
-
 http://localhost:5173
-
 Make sure both backend and frontend are running at the same time for the application to work correctly.
 
 ## User Authentication
@@ -67,44 +57,28 @@ Make sure both backend and frontend are running at the same time for the applica
 User login and access control are managed by the backend API.
 Different REST routes and permissions depend on the user role stored in the database.
 
-Technologies Used
+Technologies Used:
 
 Frontend:
-
 React (Vite)
-
 TypeScript
-
 React Router
-
 React Bootstrap
-
 Axios
 
 Backend:
-
 .NET Minimal API
-
 SQLite database
-
 Features
-
 Log and view workouts
-
 Track progress and fitness goals
-
 Export workout data as JSON
-
 Responsive design (mobile, tablet, desktop)
-
 Protected routes (requires login)
 
-Notes for the Examiner
-
+Notes for the Examiner:
 The repository includes both backend and frontend projects.
-
 The backend and frontend must be started separately, as described above.
-
 The backend is unchanged from the provided Minimal API solution.
 
 The frontend, located in the my-fit-app folder, communicates with the backend via REST API requests.
