@@ -1,32 +1,73 @@
 # Personal Training App
 
 This project is a fullstack web application built with **React (Vite + TypeScript)** for the frontend and **.NET Minimal API** for the backend.  
-The purpose of the app is to allow users to log workouts, set goals, and track their progress over time.
+The purpose of this application is to allow users to log their workouts, set fitness goals, and track progress over time.
 
 ---
 
-## Project structure
+## Project Structure
 
-The repository contains both frontend and backend parts.  
-The backend is provided as a ready-made Minimal API solution, and the frontend is implemented in React with TypeScript.
+The repository contains both the frontend and backend parts of the application.  
+The backend is provided as a ready-made Minimal API, and the frontend is implemented using React and TypeScript.
 
 
 ---
 
-## How to run the application
+## How to Run the Application
 
-There are two parts of the project that need to be started separately: the backend API and the React frontend.
+The project consists of two separate parts: **backend** and **frontend**.  
+These must be installed and started separately.
 
-### Step 1: Clone the repository
+### Step 1: Clone the Repository
+
 ```bash
 git clone https://github.com/MSU98/personal-training-app.git
 cd personal-training-app
-User authentication
 
-User login and access control are handled by the backend.
+### Step 2: Install Dependencies
+Backend (.NET)
+
+Open a terminal inside the backend folder:
+
+cd backend
+dotnet restore
+
+
+Start the backend server:
+
+dotnet run
+
+
+By default, the backend runs on:
+
+https://localhost:5001
+http://localhost:5000
+
+Frontend (React + TypeScript)
+
+Open another terminal window and navigate to the my-fit-app folder:
+
+cd my-fit-app
+npm install
+
+
+Start the frontend development server:
+
+npm run dev
+
+
+By default, the frontend runs on:
+
+http://localhost:5173
+
+Make sure both backend and frontend are running at the same time for the application to work correctly.
+
+## User Authentication
+
+User login and access control are managed by the backend API.
 Different REST routes and permissions depend on the user role stored in the database.
 
-Technologies used
+Technologies Used
 
 Frontend:
 
@@ -50,20 +91,22 @@ Features
 
 Log and view workouts
 
-Track progress and goals
+Track progress and fitness goals
 
 Export workout data as JSON
 
-Responsive design for mobile, tablet, and desktop
+Responsive design (mobile, tablet, desktop)
 
 Protected routes (requires login)
 
-Notes for the examiner
+Notes for the Examiner
 
-The project contains two separate parts (frontend and backend).
+The repository includes both backend and frontend projects.
 
-The backend and frontend must be started separately as described above.
+The backend and frontend must be started separately, as described above.
 
-The backend has not been modified from the provided solution.
+The backend is unchanged from the provided Minimal API solution.
 
-The frontend is located inside the my-fit-app folder and communicates with the backend through REST API requests.
+The frontend, located in the my-fit-app folder, communicates with the backend via REST API requests.
+
+No installation or build steps are required outside these instructions.
