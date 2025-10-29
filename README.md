@@ -52,7 +52,7 @@ By default, the frontend runs on:
 http://localhost:5173
 Make sure both backend and frontend are running at the same time for the application to work correctly.
 
-##User Authentication
+User Authentication
 
 User login and access control are managed by the backend API.
 Different REST routes and permissions depend on the user role stored in the database.
