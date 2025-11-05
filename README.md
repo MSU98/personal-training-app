@@ -8,20 +8,29 @@ The purpose of this application is to allow users to log their workouts, set fit
 ## Project Structure
 
 The repository contains both the frontend and backend parts of the application.  
-The backend is provided as a ready-made Minimal API, and the frontend is implemented using React and TypeScript.
+The backend is provided as a ready-made Minimal API, and the frontend is implemented using React and TypeScript. 
 
 personal-training-app/
+
 │
+
 ├── my-fit-app/ # Frontend (React + TypeScript, created with Vite)
+
 │ ├── src/
+
 │ ├── package.json
+
 │ └── ...
+
 │
+
 └── backend/ # .NET Minimal API (provided)
+
 ├── Program.cs
+
 ├── appsettings.json
+
 └── ...
----
 
 ## How to Run the Application
 
